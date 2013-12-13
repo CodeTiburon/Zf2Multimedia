@@ -1,0 +1,27 @@
+{
+    "name": "codetiburon/Zf2Multimedia",
+    "description": "Zend Framework 2 database mapper, model, service",
+    "type": "library",
+    "keywords": ["db","mapper","service","database","zf2"],
+    "homepage": "https://github.com/CodeTiburon/Zf2Multimedia",
+    "license": "New BSD License",
+    "authors": [
+        {
+            "name": "codetiburon",
+            "email": "",
+            "homepage": "http://www.codetiburon.com",
+            "role": "Master"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "Zf2Multimedia": "src/"
+        },
+        "classmap": [
+            "Module.php"
+        ]
+    }
+}
